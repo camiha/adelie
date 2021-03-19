@@ -1,0 +1,61 @@
+EESchema Schematic File Version 4
+LIBS:adelie-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VCC #PWR02
+U 1 1 5CE09143
+P 11025 700
+F 0 "#PWR02" H 11025 550 50  0001 C CNN
+F 1 "VCC" H 11042 871 50  0000 C CNN
+F 2 "" H 11025 700 50  0001 C CNN
+F 3 "" H 11025 700 50  0001 C CNN
+	1    11025 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5CE07C6A
+P 11025 700
+F 0 "#FLG02" H 11025 775 50  0001 C CNN
+F 1 "PWR_FLAG" H 11025 870 50  0000 C CNN
+F 2 "" H 11025 700 50  0001 C CNN
+F 3 "~" H 11025 700 50  0001 C CNN
+	1    11025 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5CE06F13
+P 10700 700
+F 0 "#FLG01" H 10700 775 50  0001 C CNN
+F 1 "PWR_FLAG" H 10700 871 50  0000 C CNN
+F 2 "" H 10700 700 50  0001 C CNN
+F 3 "~" H 10700 700 50  0001 C CNN
+	1    10700 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5CE059B6
+P 10700 700
+F 0 "#PWR01" H 10700 450 50  0001 C CNN
+F 1 "GND" H 10704 530 50  0000 C CNN
+F 2 "" H 10700 700 50  0001 C CNN
+F 3 "" H 10700 700 50  0001 C CNN
+	1    10700 700 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
